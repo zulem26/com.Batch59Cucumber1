@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.746">
-    <testcase classname="US1011 web tablosundaki istenen sutunu yazdirma" name="TC16 kullanici sutun basligi ile liste alabilmeli" time="12.023">
-        <system-out>
-            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
-And "Company", sutunundaki tum degerleri yazdirir...........................passed
-Then sayfayi kapatir........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.089">
+    <testcase classname="US1013 kullanici excel bilgilerine ulasir" name="TC18 kullanici excel bilgilerini kullanir" time="0.409">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici excel dosyasini kullanilabilir hale getirir.................undefined
+Then 1.satirdaki 2.hucreye yazdirir.........................................skipped
+And baskenti Jakarta olan ulke ismini yazdirir..............................skipped
+And Ulke sayisinin 167 oldugunu test eder...................................skipped
+And Fiziki olarak kullanilan satir sayisinin 191 oldugunu test eder.........skipped
+Then 3.satir 2.sutundaki bilgiyi yazdirir...................................skipped
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
