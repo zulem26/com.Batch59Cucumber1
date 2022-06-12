@@ -42,5 +42,9 @@ public class GuruStepDefinitions {
         }else{//baslik bulunamadi
             System.out.println("istenen baslik bulunamadi");
         }
+
+
+
     }
+
 }

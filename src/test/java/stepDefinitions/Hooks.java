@@ -9,7 +9,8 @@ import utilities.Driver;
 public class Hooks {
     /*
         Cucumber da step definitions package i icerisinde @before, @after gibi bir notasyon varsa
-         extends testBase dememizde gerek kalmadan her scenario dan once ve/veya bu method lar calisacaktir
+         extends testBase dememizde gerek kalmadan her scenario dan once ve/veya sonra
+         bu method lar calisacaktir
 
         Bu da bizim isteyecegimiz bir durum degildir
 

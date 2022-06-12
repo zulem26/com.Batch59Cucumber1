@@ -28,6 +28,7 @@ public class AmazonStepDefinitions {
         String arananKelime = "Nutella";
         String actualAramaSonucStr = amazonPage.aramaSonucElementi.getText();
         Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
+
     }
 
     @Then("sayfayi kapatir")

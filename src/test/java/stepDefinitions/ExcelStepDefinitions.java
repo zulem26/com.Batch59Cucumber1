@@ -29,7 +29,7 @@ public class ExcelStepDefinitions {
         // for loop ile tum satirlari kontrol etmem gerekiyor
         // bunun icin de satir sayisina ihtiyacim var
         int satirSayisi=workbook.getSheet("Sayfa1").getLastRowNum();
-        for (int i = 0; i < satirSayisi; i++) {
+        for (int i = 0; i <= satirSayisi; i++) {
             if (workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString().equals("Jakarta")){
                 System.out.println("Baskenti Jakarta olan ulke : " +
                         workbook.getSheet("Sayfa1").getRow(i).getCell(0));
