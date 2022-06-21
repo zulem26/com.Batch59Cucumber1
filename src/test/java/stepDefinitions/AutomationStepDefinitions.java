@@ -74,6 +74,18 @@ Faker faker = new Faker();
     }
     @Then("hesap olustugunu dogrular")
     public void hesap_olustugunu_dogrular() {
+
         Assert.assertTrue(automationPage.positiveResultText.isDisplayed());
+    }
+
+
+    @Given("email kutusuna @ isareti olmayan email adresi yazar ve enter;a tiklar")
+    public void email_kutusuna_isareti_olmayan_email_adresi_yazar_ve_enter_a_tiklar() {
+        automationPage.emailTextBox.sendKeys("zakkygmail.com"+ Keys.ENTER);
+
+    }
+    @Then("error mesajinin {string} oldugunu dogrulayin")
+    public void error_mesajinin_oldugunu_dogrulayin(String string) {
+        Assert.assertTrue(automationPage.negativeResultText.isDisplayed());
     }
 }
